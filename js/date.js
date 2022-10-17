@@ -6,7 +6,6 @@ var val = 0;
 function timer(){
 	var start = new Date(2022, 3,8);
 	var t = new Date() - start;
-	console.log(t);
 	var d = Math.floor(t / 1000 / 60 / 60 / 24);
 	var h = Math.floor(t / 1000 / 60 / 60 % 24);
 	if(h < 10){
